@@ -1,0 +1,5 @@
+﻿规则,字段,判断条件,不合规记录数,处理结论
+使用时长不能小于0,Tenure,Tenure < 0,0,未发现不合规记录，无需处理
+仓库距离不能小于0,WarehouseToHome,WarehouseToHome < 0,0,未发现不合规记录，无需处理
+订单数必须大于0,OrderCount,OrderCount <= 0,0,未发现不合规记录，无需处理
+返现金额不能小于0,CashbackAmount,CashbackAmount < 0,0,未发现不合规记录，无需处理

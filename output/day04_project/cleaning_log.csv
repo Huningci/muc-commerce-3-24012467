@@ -1,0 +1,15 @@
+﻿处理步骤,处理规则,处理前记录数,处理后记录数,影响记录数
+完全重复记录处理,删除所有字段完全相同的重复记录,5630,5630,0
+Tenure缺失值处理,使用总体中位数9.00填补；不按Churn分组,5630,5630,264
+WarehouseToHome缺失值处理,使用总体中位数14.00填补；不按Churn分组,5630,5630,251
+HourSpendOnApp缺失值处理,使用总体中位数3.00填补；不按Churn分组,5630,5630,255
+OrderAmountHikeFromlastYear缺失值处理,使用总体中位数15.00填补；不按Churn分组,5630,5630,265
+CouponUsed缺失值处理,使用总体中位数1.00填补；不按Churn分组,5630,5630,256
+OrderCount缺失值处理,使用总体中位数2.00填补；不按Churn分组,5630,5630,258
+DaySinceLastOrder缺失值处理,使用总体中位数3.00填补；不按Churn分组,5630,5630,307
+PreferredLoginDevice类别标准化,Phone → Mobile Phone,5630,5630,1231
+PreferredPaymentMode类别标准化,COD → Cash on Delivery,5630,5630,365
+PreferredPaymentMode类别标准化,CC → Credit Card,5630,5630,273
+PreferedOrderCat类别标准化,Mobile → Mobile Phone,5630,5630,809
+Churn类型转换,转换为int64，并验证取值仅为0和1,5630,5630,0
+Complain类型转换,转换为int64，并验证取值仅为0和1,5630,5630,0
